@@ -1,4 +1,4 @@
-# Copyright 2021 PickNik Inc.
+# Copyright 2021 KOCETI Corp
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -32,4 +32,4 @@ from ament_copyright.licenses import read_license_data
 
 TEMPLATE_DIRECTORY = os.path.join(os.path.dirname(__file__), 'template')
 
-picknik_proprietary = read_license_data(TEMPLATE_DIRECTORY, 'KOCETI Proprietary License', 'KOCETI', 'koceti_proprietary')
+koceti = read_license_data(TEMPLATE_DIRECTORY, 'KOCETI Proprietary License', 'koceti')

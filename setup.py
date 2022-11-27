@@ -36,7 +36,7 @@ setup(
             'koceti = koceti_ament_copyright.copyright_names:koceti',
         ],
         'ament_copyright.license': [
-            'koceti_proprietary = koceti_ament_copyright.licenses:koceti_proprietary',
+            'koceti = koceti_ament_copyright.licenses:koceti',
         ],
     },
 )
