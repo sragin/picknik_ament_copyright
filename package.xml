@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
-  <name>picknik_ament_copyright</name>
+  <name>koceti_ament_copyright</name>
   <version>0.0.2</version>
   <description>
-    Check PickNik-specific copyright headers.
+    Check Koceti-specific copyright headers.
   </description>
   <maintainer email="joseph.schornak@picknik.ai">Joe Schornak</maintainer>
   <license>BSD</license>

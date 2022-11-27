@@ -1,7 +1,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-package_name = 'picknik_ament_copyright'
+package_name = 'koceti_ament_copyright'
 
 setup(
     name=package_name,
@@ -17,10 +17,10 @@ setup(
         'template/*',
     ]},
     zip_safe=False,
-    author='Joe Schornak',
-    author_email='joseph.schornak@picknik.ai',
-    maintainer='Joe Schornak',
-    maintainer_email='joseph.schornak@picknik.ai',
+    author='Jongpil Kim',
+    author_email='jpkim@koceti.re.kr',
+    maintainer='Jongpil Kim',
+    maintainer_email='jpkim@koceti.re.kr',
     url='https://github.com/PickNikRobotics/picknik_ament_copyright',
     classifiers=[
         'Intended Audience :: Developers',
@@ -28,15 +28,15 @@ setup(
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
-    description='Check source files for PickNik-specific copyright reference.',
+    description='Check source files for KOCETI-specific copyright reference.',
     license='BSD',
     tests_require=['pytest'],
     entry_points={
         'ament_copyright.copyright_name': [
-            'picknik = picknik_ament_copyright.copyright_names:picknik',
+            'koceti = koceti_ament_copyright.copyright_names:koceti',
         ],
         'ament_copyright.license': [
-            'picknik_proprietary = picknik_ament_copyright.licenses:picknik_proprietary',
+            'koceti_proprietary = koceti_ament_copyright.licenses:koceti_proprietary',
         ],
     },
 )
