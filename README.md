@@ -13,7 +13,7 @@ Clone and build this repo so it's available in your ROS package paths.
 To add missing KOCETI-proprietary license headers to all files in the current directory, run the command below (`koceti` sets KOCETI Corp. as the copyright holder, and `koceti_proprietary` uses our closed-source proprietary license template).
 
 ```
-ament_copyright --add-missing koceti koceti_proprietary .
+ament_copyright --add-missing koceti_proprietary koceti .
 ```
 
 This will insert the following license header in source code files that do not already have a license header that `ament_copyright` recognizes:
